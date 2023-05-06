@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lora:wght@400;500;600;700&display=swap");
+body {
+  background-image: url(./Image/img_mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  width: 60%;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+.container {
+  background-color: #333;
+  display: flex;
+}
+.container h1,
+.container p {
+  font-family: "Bruno Ace SC", cursive;
+  color: whitesmoke;
+}
+.container div,
+.container nav {
+  display: inline-block;
+}
+.container div {
+  margin-left: 20%;
+}
+
+.container nav {
+  font-family: "Bruno Ace SC", cursive;
+  margin-left: 12.5%;
+}
+.container nav :hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.container ul {
+  border-left: 10px solid rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+
+  background-color: #232323;
+}
+.container ul li {
+  display: inline-block;
+}
+.container ul li a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.body {
+  display: flex;
+  margin-top: 2%;
+  gap: 1%;
+}
+.one {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 300px;
+  font-family: "Bruno Ace SC", cursive;
+}
+.one p {
+  font-size: large;
+}
+.one a {
+  float: right;
+  color: rgb(146, 99, 11);
+}
+.one a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.five {
+  background-color: #333;
+  width: 69%;
+  height: 300px;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+.five h1 {
+  margin-left: 29%;
+  margin-top: 18%;
+  color: whitesmoke;
+}
+.section {
+  display: flex;
+  font-family: "Bruno Ace SC", cursive;
+
+  margin-top: 2%;
+  gap: 3%;
+}
+.section article {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.section a {
+  float: right;
+  color: bisque;
+  margin-right: 15px;
+  padding: 16px;
+}
+.section p {
+  padding: 16px;
+}
+.section img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.section a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  gap: 2%;
+}
+
+.footer div {
+  background-color: #232323;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.footer h1 {
+  font-family: "Bruno Ace SC", cursive;
+  width: 223px;
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+footer {
+  background-color: #232323;
+}
